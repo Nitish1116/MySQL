@@ -1,0 +1,76 @@
+create database Student_records;
+
+use Student_records;
+
+ create table students (
+    id INT AUTO_INCREMENT PRIMARY KEY ,
+    Student_Name VARCHAR(50),
+    Age INT,
+    Address VARCHAR(100)
+);
+
+insert into students( Student_Name, Age, Address)
+values
+('Nitish',22,'visakhapatnam,AP'),
+('Sandeep', NULL, 'Vizag MVP colony'),
+('Revanth', 30, NULL),
+('Vinod', NULL, 'Hyd shamshabad'),
+('Vamsi', 22, 'Kakinda'),
+('Surya', 29, NULL),
+('Deepak', NULL, 'Vizag Steel plant'),
+('Saleem', 35, 'Vizag Asilmetta'),
+('Akhil', NULL, NULL),
+('Sameer', 40, 'Delhi'),
+('Sravanthi', NULL, 'Vizag Pendurthi'),
+('Kumar', 28, 'Srikakulam arasavali'),
+('Reddy', NULL, 'Vizianagaram Sr colony'),
+('Vashist', 33, NULL),
+('Sujith', NULL, 'Vizag pendurithi'),
+('Paul', 26, 'Mumbai'),
+('Varun', NULL, 'Vizag carshed'),
+('Sita', 27, NULL),
+('Ram', NULL, 'Hyd Miyapur'),
+('Teja', 34, 'Hyd Kondapur'),
+('Umesh', NULL, 'Hyd Old city'),
+('Veera', 21, 'Hyd madhapur'),
+('Sandy', NULL, 'Vizag Madurawada'),
+('Deepu', 36, NULL),
+('Shannu', NULL, 'Vizag Rushikonda'),
+('Ruchith', 31, 'Hyd KPHB'),
+('Abid', NULL, ''),
+('Bobby', 25, NULL),
+('Hemanth', NULL, 'Vizag PM palem'),
+('Santhosh', 22, 'Hyd gachibowli'),
+('Ratna', NULL, NULL),
+('Ravana', 30, '2122 Birch St'),
+('Gowtam', NULL, '2223 Oak St'),
+('Praveen', 32, NULL),
+('Ajih', NULL, '2324 Pine St'),
+('Abhi', 35, '2425 Elm St'),
+('Naveen', NULL, '2526 Cedar St'),
+('Jayanthi', 27, NULL),
+('Micky', NULL, '2627 Birch St'),
+('Nina', 30, '2728 Maple St'),
+('Owen', NULL, '2829 Pine St'),
+('Pat', 33, '2930 Oak St'),
+('Quincy', NULL, NULL),
+('Riley', 29, '3031 Cedar St'),
+('Sophie', NULL, '3132 Elm St'),
+('Tony', 24, NULL),
+('Ursula', NULL, '3233 Birch St'),
+('Victor', 28, '3334 Hickory St'),
+('Wendy', NULL, '3435 Pine St'),
+('Xander', 25, '3536 Maple St'),
+('Yasmine', NULL, '3637 Oak St'),
+('Zara', 31, NULL),
+('Adam', NULL, '3738 Cedar St'),
+('Bella', 32, '3839 Elm St'),
+('Chris', NULL, '3940 Birch St'),
+('Derek', 36, NULL),
+('Eva', NULL, '4041 Oak St'),
+('Freddie', 34, '4142 Maple St'),
+('Georgia', NULL, '4243 Pine St'),
+('Hannah', 30, NULL);
+
+select*from students;
+
